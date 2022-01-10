@@ -1,0 +1,40 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Jen jedna konfigurace SmartThinQ LGE Sensors je povolena.",
+            "no_smartthinq_devices": "Nebylo nalezeno SmartThinQ zařízení. Nastavení komponenty bylo přerušeno."
+        },
+        "error": {
+            "invalid_region": "Nesprávný formát regionu.",
+            "invalid_language": "Nesprávny formát jazyka.",
+            "invalid_url": "Neplatná adresa URL přesměrování.",
+            "invalid_credentials": "Neplatné přihlašovací údaje SmartThinQ. Zkus to znovu."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "region": "Region",
+                    "language": "Jazyk"
+                },
+                "description": "Vyplňte informace o přístupu k SmartThinQ.",
+                "title": "SmartThinQ LGE Sensors"
+            },
+            "url": {
+                "data": {
+                    "login_url": "SmartThinQ přihlašovací URL",
+                    "callback_url": "Zpětná URL"
+                },
+                "description": "Pomocí URL v prvním poli proveďte přihlášení do SmartThinQ a poté vložte URL, kterou vygeneruje prohlížeč po přihlášení, do druhého pole.",
+                "title": "SmartThinQ LGE Sensors - Autentifikace"
+            },
+            "token": {
+                "data": {
+                    "token": "Obnovte Token"
+                },
+                "description": "Uložte vygenerovaný token pro budoucí použití a poté potvrďte dokončení konfigurace.",
+                "title": "SmartThinQ LGE Sensors - Nový obnovený token"
+            }
+        },
+        "title": "SmartThinQ LGE Sensors"
+    }
+}
